@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Este es el proyecto de Platzi para hacer una pagina con Grid">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@500;700&display=swap');</style>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="shortcut icon" href="./Multimedia/Menu/Logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ShushiDirectoty</title>
+</head>
+<body>
+    <header class="topPage">
+        <section class="sliderPage">
+            <article class="topPage-text ">
+                <h1>Mira nuestros platillo de la semana</h1>
+                <p>Nuestro sushi-bomba es un gran platillo que no solo funciona de entrada, es un gran aperitivo para las bocas pequeñas</p>
+            </article>
+            <figure>
+                <img id="imgPort" src="./Multimedia/Sushi1.png" alt="sushi-bomba">
+            </figure>
+        </section>
+        <section class="sliderPage inactive">
+            <article class="topPage-text ">
+                <h1>Nuestras promociones estan hechas para ti</h1>
+                <p>Aprovecha nuestras promociones para que toda la banda pueda disfurtar de estos maravillosos sushis y puedan disfrutar un verdadero sushi</p>
+            </article>
+            <figure>
+                <img id="imgPort" src="./Multimedia/Menu/SushiMenu1.png" alt="sushi-bomba">
+            </figure>
+        </section>
+        <section class="sliderPage inactive">
+            <article class="topPage-text ">
+                <h1>Disfruta de los mejores platillos</h1>
+                <p>Los mejores sushis para disfrutar son los que se comparten, invita a quien quieras a disfrutar de los mejores platillos de sushi</p>
+            </article>
+            <figure>
+                <img id="imgPort" src="./Multimedia/Menu/SushiMenu5.png" alt="sushi-bomba">
+            </figure>
+        </section>
+        <menu>
+            <div class="buttonSlider activeButton"></div>
+            <div class="buttonSlider"></div>
+            <div class="buttonSlider"></div>
+        </menu>
+    </header>
+    <main>
+        <section class="services-menu">
+            <div class="contenedor CloseWindow">
+                <svg id="svgIcon" width="46" height="46" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6 6 18"></path>
+                    <path d="m6 6 12 12"></path>
+                  </svg>
+                <div id="background">
+                    <figure class="head">
+                        <h2 id="titleContainer">Platillo de sushi</h2>
+                        <img id="imageContainer" src="../Multimedia/Menu/SushiMenu1.png" alt="">
+                    </figure>
+                    <div class="texto">
+                        <p id="textContainer" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, deleniti sed delectus quo enim officiis nulla eaque deserunt, cum ad ipsam amet nesciunt corrupti aspernatur sequi quisquam. Sit, temporibus voluptate?</p>
+                        <h3 id="priceContainer">$250</h3>
+                    </div>
+                </div>
+            </div>
+            <h2>NUESTROS SERVICIOS</h2>
+            <div class="videoR">
+                <video autoplay loop src="./Multimedia/sushiVip.webm"></video>
+                <div class="overShow">
+                    <h1>La mejor calidad</h1>
+                    <p>Sushirectoy</p>
+                </div>
+            </div>
+            <div class="catalg">
+                <img src="https://imgs.search.brave.com/0q4MjWbrC5MRZuNnAW1OB1UgBmVYC2aApIb3-DE8Quo/rs:fit:940:788:1/g:ce/aHR0cHM6Ly9saDMu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL3BR/MDFSdGNyMkwwOUtp/WFlCRUt2T3hyRXlY/LWhFcmNWMWRnbERF/SDRjSjNySnZESFp5/Q2lYbGxsSWJrcXZD/SGdKTHFnU1ZabmNJ/cXNkdU53dGNHM09n/PXcxMDI0" alt="">
+                <div class="overShow">
+                    <p>Cocineros profesionales con amplia experiencia</p>
+                </div>
+            </div>
+            <div class="catalg">
+                <img src="https://imgs.search.brave.com/YJbojg8ecKiXox6Bs46LjGwqSxd_-50KwSto6FXr3uc/rs:fit:1200:628:1/g:ce/aHR0cHM6Ly9sYXZp/Y2VudGEuY29tLm14/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE5/LzA0L3Byb21vY2lv/bi1jdW1wbGVhJUMz/JUIxZXJvLWNvbWUt/Z3JhdGlzLmpwZw" alt="">
+                <div class="overShow">
+                    <p>Todo tipo de festejos para tu comodidad</p>
+                </div>
+            </div>
+            <div class="catalg">
+                <img src="https://imgs.search.brave.com/m4W5hOJJZipDDt29I-89Cg7nKrDeKXcAhT7-Qoe1S9Y/rs:fit:786:780:1/g:ce/aHR0cHM6Ly91cmJh/aW5lY2l0eS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTcv/MDQvU2NyZWVuLVNo/b3QtMjAxNy0wNC0y/OC1hdC0xMi4zNy4w/OS1QTS1lMTQ5MzQ3/MTE4NTkzNS5wbmc" alt="">
+                <div class="overShow">
+                    <p>Estamos en Uber Eats</p>
+                </div>
+            </div>
+            <div class="catalg">
+                <img src="https://imgs.search.brave.com/VCCHEAIL4pBtYEuSPz-moaPMvTNY1DMzWfYJrByDOR0/rs:fit:1024:683:1/g:ce/aHR0cHM6Ly93d3cu/c3RpbGUuaXQvd3At/Y29udGVudC91cGxv/YWRzLzIwMTcvMDYv/MTBfVFJfc3VzaGlf/cGFjay0xMDI0eDY4/My5qcGc" alt="">
+                <div class="overShow">
+                    <p>Contamos con servicio a domicilio</p>
+                </div>
+            </div>
+        </section>
+        <section class="menu">
+            <h3>MENU DE LA CASA</h3>
+            <!-- <img src="./Multimedia/Menu/SushiMenu1.png" alt="">
+            <img src="./Multimedia/Menu/SushiMenu2.png" alt="">
+            <img src="./Multimedia/Menu/SushiMenu3.png" alt="">
+            <img src="./Multimedia/Menu/SushiMenu4.png" alt="">
+            <img src="./Multimedia/Menu/SushiMenu5.png" alt=""> -->
+        </section>
+    </main>
+    <footer>
+        <div class="elemen">
+            <p>©2021 JHector Zavala :.</p>
+        </div>
+        <div class="elemen">
+            <img src="./Multimedia/Logo.png" alt="">
+            <p>Copyright © Todos los derechos reservados</p>
+        </div>
+        <div class="elemen buttom">
+            <div onclick="location.href='https://www.facebook.com/jhector.inzunza'" class="icono">
+              <i class="fa fa-facebook"></i>
+              <span>JHector Inzunza</span>
+            </div>
+            <div onclick="location.href='https://www.linkedin.com/in/jes%C3%BAs-h%C3%A9ctor-zavala-inzunza-670530259/'" class="icono">
+              <i class="fa fa-linkedin"></i>
+              <span>Hector Zavala Inzunza</span>
+            </div>
+            <div onclick="location.href='https://github.com/JHectorZ'" class="icono">
+              <i class="fa fa-github"></i>
+              <span>JHectorZ</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
