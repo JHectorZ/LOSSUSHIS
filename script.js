@@ -124,7 +124,6 @@ $(function() {
     $(document).on('click', 'img[name="imageMenu"]', function(event) {
        let idProduct = this.id;
        openWindow();
-       console.log("Se presionó el Boton con Id :"+ idProduct)
        queryProductList(listMenuImg, idProduct)
     });
 });
