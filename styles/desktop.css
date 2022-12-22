@@ -96,7 +96,7 @@ img{
     padding: 4rem;
     padding-top: 0%;
     margin: 1rem;
-    height: 45rem;
+    height: 40rem;
 }
 
 .sliderPage{
@@ -449,6 +449,7 @@ footer{
 .elemen img{
     width: 15%;
     max-width: 90px;
+    min-width: 80px;
     height: 55%;
 }
 
