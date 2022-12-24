@@ -191,7 +191,7 @@ main{
     grid-template-rows: 10% 50% 25%;
     justify-content: space-between;
     align-content: space-between;
-    padding: 1rem;
+    padding: 2%;
     margin: 1rem;
     width: 99%;
     max-width: 1310px;
@@ -288,10 +288,10 @@ main{
 
 .menu{
     display: grid;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 15% 80%;
     width: 100%;
     max-width: 1340px;
-    padding: 4rem;
+    padding: 2%;
     margin: 1rem;
 }
 
@@ -299,7 +299,7 @@ main{
     display: flex;
     justify-content: center;
     font-size: 2.4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1%;
     color: var(--color-title);
 }
 
@@ -371,8 +371,8 @@ main{
     -webkit-box-shadow: var(--sombra-body);
     -moz-box-shadow: var(--sombra-body);
     box-shadow: var(--sombra-body);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 55% 45%;
     border-radius: 2.5rem;
     align-items: center;
     width: 100%;
@@ -389,8 +389,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 60%;
+    height: 90%;
 }
 
 .head h2{
@@ -402,28 +401,45 @@ main{
 .head img{
     object-fit: cover;
     width: 100%;
-    height: 80%;
+    height: 100%;
 }
 
 .texto{
     font-family: 'Asap Condensed', sans-serif;
     display: flex;
     flex-direction: column;
+    row-gap: 10%;
+    justify-content: center;
     align-items: center;
-    margin: 5rem;
+    margin: 2%;
     margin-top: 5%;
-    font-size: 1.5rem;
+    height: inherit;
     text-align: justify;
 }
 
-.texto h3{
-    text-align: center;
+.description{
+    display: grid;
+    grid-template-rows: 10% 40% 10% 40%;
+}
+
+.texto button{
+    transition: 300ms;
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: bolder;
     background-color: #A21717;
+    outline: none;
+    border: none;
+    cursor: pointer;
     padding: 1rem;
-    width: 20rem;
+    width: 10rem;
     border-radius: 2rem;
     color: white;
-    margin: 2rem;
+}
+
+.texto button:active{
+    transition: 300ms;
+    background-color: #7c1111;
+    width: 10.5rem;
 }
 
 /* CREATING THE FOOTER */

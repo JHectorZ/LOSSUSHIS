@@ -8,7 +8,7 @@ const imgContainer = document.querySelector('#imageContainer');
 const teContainer = document.querySelector('#textContainer');
 const priContainer = document.querySelector('#priceContainer');
 const claseNone = document.getElementsByClassName('.CloseWindow');
-
+const input = document.getElementById('inputSticky');
 
 var contador = 0;
 function sliderNext(){
@@ -112,7 +112,7 @@ function queryProductList(array, idElement){
         
         if (idElement == product.id){
             tiContainer.innerHTML = product.nombre;
-            priContainer.innerHTML = '$'+product.precio;
+            priContainer.innerHTML = 'VER MENU';
             imgContainer.setAttribute('src',product.imagen);
             teContainer.innerHTML == product.resum;
         };
